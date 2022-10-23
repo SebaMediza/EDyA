@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1648327792 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 2\tp_2\main.cpp
+	<iostream>
+	"edya2.h"
+
+1647625447 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 2\tp_2\ej_1.h
+	<string>
+	<iostream>
+
+1647875119 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 2\tp_2\ej_3.h
+	<iostream>
+	<string>
+
+1647874868 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 2\tp_2\ej_5.h
+	<iostream>
+	<vector>
+	<math.h>
+	<algorithm>
+	<ctime>
+
+1648327792 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 2\tp_2\main.cpp
+	<iostream>
+	"edya2.h"
+
+1647625447 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 2\tp_2\ej_1.h
+	<string>
+	<iostream>
+
+1648319129 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 2\tp_2\ej_3.h
+	<iostream>
+	<string>
+
+1648314229 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 2\tp_2\ej_5.h
+	<iostream>
+	<vector>
+	<math.h>
+	<algorithm>
+	<ctime>
+
+1647867485 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 2\tp_2\ej_7.h
+	<queue>
+	<iostream>
+
+1647867485 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 2\tp_2\ej_7.h
+	<queue>
+	<iostream>
+
+1648327707 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 2\tp_2\edya2.h
+	<string>
+	<iostream>
+	<vector>
+	<math.h>
+	<algorithm>
+	<ctime>
+	<queue>
+
+1648327707 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 2\tp_2\edya2.h
+	<string>
+	<iostream>
+	<vector>
+	<math.h>
+	<algorithm>
+	<ctime>
+	<queue>
+

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1658324809 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 6\tp_6\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	"lista_a.h"
+	"lista_p.h"
+	"Punto_6.h"
+
+1658324823 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 6\tp_6\lista_a.h
+	<iostream>
+	<cstdlib>
+
+1652793575 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 6\tp_6\lista_p.h
+	<iostream>
+	<cstdlib>
+	"nodo.h"
+
+1652447419 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 6\tp_6\nodo.h
+	<iostream>
+
+1658324809 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 6\tp_6\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	"lista_a.h"
+	"lista_p.h"
+	"Punto_6.h"
+
+1658324823 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 6\tp_6\lista_a.h
+	<iostream>
+	<cstdlib>
+
+1658429600 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 6\tp_6\lista_p.h
+	<iostream>
+	<cstdlib>
+	"nodo.h"
+
+1652447419 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 6\tp_6\nodo.h
+	<iostream>
+
+1651413186 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 6\tp_6\punto_6.h
+	<string>
+	"lista_a.h"
+	"lista_p.h"
+
+1651413186 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 6\tp_6\punto_6.h
+	<string>
+	"lista_a.h"
+	"lista_p.h"
+

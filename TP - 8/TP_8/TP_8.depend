@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1654371163 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 8\tp_8\main.cpp
+	<iostream>
+	"filaa.h"
+	<queue>
+	<string>
+	<time.h>
+
+1654371214 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 8\tp_8\filaa.h
+	<cstdlib>
+	<cstdio>
+	<iostream>
+	<iomanip>
+
+1654604730 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 8\tp_8\main.cpp
+	<iostream>
+	"filaa.h"
+	<queue>
+	<string>
+	<time.h>
+
+1654604813 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 8\tp_8\filaa.h
+	<cstdlib>
+	<cstdio>
+	<iostream>
+	<iomanip>
+

@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1647801711 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\main.cpp
+	<iostream>
+	"date.h"
+	"edya_array.h"
+	"word.h"
+	"P_3.h"
+	"P_4.h"
+
+1647801102 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\date.h
+	"stdlib.h"
+	"string.h"
+	"iostream"
+
+1646950269 source:c:\users\nikim\onedrive\documentos\facultad\ingenieria en sistemas\edya\tp - 1\tp_1\main.cpp
+	<iostream>
+	"date.h"
+	"P_1.h"
+
+1646944724 c:\users\nikim\onedrive\documentos\facultad\ingenieria en sistemas\edya\tp - 1\tp_1\date.h
+
+1646951041 c:\users\nikim\onedrive\documentos\facultad\ingenieria en sistemas\edya\tp - 1\tp_1\p_1.h
+	"date.h"
+	<iostream>
+
+1647623497 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\p_1.h
+	"date.h"
+	<iostream>
+
+1647803283 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\p_3.h
+	"word.h"
+	<iostream>
+
+1647803262 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\word.h
+	<iostream>
+
+1647556202 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 1\tp_1\main.cpp
+	<iostream>
+	"date.h"
+	"P_1.h"
+	"P_3.h"
+	"word.h"
+
+1646944724 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 1\tp_1\date.h
+
+1647556164 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 1\tp_1\p_1.h
+	"date.h"
+	<iostream>
+
+1647555948 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 1\tp_1\p_3.h
+	"word.h"
+	<iostream>
+
+1647555852 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 1\tp_1\word.h
+
+1647801074 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\p_2.h
+	"stdlib.h"
+	"string.h"
+	"iostream"
+
+1647801552 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\p_4.h
+	"stdlib.h"
+	"string.h"
+	"iostream"
+
+1647800588 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\p_6.h
+	<iostream>
+	<stdlib.h>
+
+1647801507 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 1\tp_1\edya_array.h
+	<iostream>
+	<stdlib.h>
+

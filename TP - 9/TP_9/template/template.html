@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<title>EDyA | ArbolBinViewer </title>
+		<script type="text/javascript" src="./template/vis.min.js"></script>
+
+		<style type="text/css">
+			#arbolbin_panel {
+				width: 100%;
+				height: 800px;
+				border: 2px solid #90A4AE;
+				background: #ECEFF1;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="arbolbin_panel"></div>
+	</body>
+
+	<script type="text/javascript">
+		// create an array with nodes
+		var nodes = new vis.DataSet([
+			{{nodes}}
+		]);
+
+		// create an array with edges
+		var edges = new vis.DataSet([
+			{{edges}}
+		]);
+
+		// create a network
+		var container = document.getElementById('arbolbin_panel');
+
+		var data = {
+			nodes: nodes,
+			edges: edges
+		};
+
+		var options = {
+			nodes: {
+				shape: 'box',
+				size: 20,
+				borderWidth: 2,
+				color: {
+				  background:'#37474F',
+				  border:'#37474F',
+				  highlight:{
+					  background:'#607D8B',
+					  border:'#607D8B',
+					}
+				  },
+				font: {
+				  color: '#FFFFFF',
+				  strokeWidth: 0, // px
+				  strokeColor: '#ffffff',
+				  align: 'horizontal',
+				},
+			},
+			layout: {
+				hierarchical:{
+					direction: "UD",
+					sortMethod: "directed",
+				}
+			},
+			title: "undefined",
+		};
+		var network = new vis.Network(container, data, options);
+	</script>
+</html>

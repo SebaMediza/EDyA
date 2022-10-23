@@ -1,0 +1,74 @@
+
+//OPRACION BASICA DE CARGA DE ABB
+
+template <class T>
+void ArbolBin<T>::carga_ABB(T elemento,Nodo<T>* &r){
+        if(this->raiz==nullptr){
+            this->asignarNodo(elemento,r);
+        }
+        if(elemento>this->recuperar(r)){
+            if(*this->hijoDer(r)==nullptr){
+                this->asignarNodo(elemento,*this->hijoDer(r));
+            }else{
+                carga_ABB(elemento,*this->hijoDer(r));
+            }
+        }else{
+        if(elemento<this->recuperar(r)){
+            if(*this->hijoIzq(r)==nullptr){
+                this->asignarNodo(elemento,*this->hijoIzq(r));
+            }else{
+                carga_ABB(elemento,*this->hijoIzq(r));
+            }
+        }
+    }
+}
+
+
+//FUNCION DE APLICACION DE CARGA DE ABB
+
+template <class T>
+ArbolBin<T> carga_ABB(ArbolBin<T> &tree, T elemento, Nodo<T>* &Pos){
+    if(*tree.raizArbol()==nullptr){
+            tree.asignarNodo(elemento,Pos);
+            Mostrar(tree);
+        }
+        if(elemento>tree.recuperar(Pos)){
+            if(*tree.hijoDer(Pos)==nullptr){
+                tree.asignarNodo(elemento,*tree.hijoDer(Pos));
+            }else{
+                carga_ABB(tree,elemento,*tree.hijoDer(Pos));
+            }
+        }else{
+        if(elemento<tree.recuperar(Pos)){
+            if(*tree.hijoIzq(Pos)==nullptr){
+                tree.asignarNodo(elemento,*tree.hijoIzq(Pos));
+            }else{
+                carga_ABB(tree,elemento,*tree.hijoIzq(Pos));
+            }
+        }
+    }
+return tree;
+}
+
+//FUNCION PARA TESTEAR LA CORRECTA CARGA DE ARBOLES
+
+void test_abb(unsigned int cant, unsigned int N){
+    ArbolBin<int> tree;
+    Nodo<int>* *root=tree.raizArbol();
+    unsigned int contador=0, random_sign;
+    short min_val=(1),max_val=N;
+    do{
+    int elemento=0;
+    elemento=min_val+rand()%max_val;
+    random_sign = (rand() % 2);
+    if (random_sign==0){
+        elemento=-elemento;
+        }
+
+    tree.carga_ABB(elemento,*root);
+    contador++;
+    }while(contador!=cant);
+    if(contador==cant){
+    Mostrar(tree);
+    }
+}

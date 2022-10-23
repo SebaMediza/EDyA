@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1651766620 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 7\tp_7\main.cpp
+	<iostream>
+	"pila_a.h"
+	<vector>
+
+1651767307 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 7\tp_7\pila_a.h
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<vector>
+
+1651784099 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 7\tp_7\main.cpp
+	<iostream>
+	"pila_a.h"
+	<vector>
+
+1651789338 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 7\tp_7\pila_a.h
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<vector>
+

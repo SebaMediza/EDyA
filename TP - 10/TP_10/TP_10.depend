@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1654088171 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 10\tp_10\main.cpp
+	<iostream>
+	<vector>
+	<map>
+	"sort.h"
+	"element.h"
+	"test_stl_sort.h"
+
+1591121810 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 10\tp_10\sort.h
+	<iostream>
+
+1591117998 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 10\tp_10\element.h
+	<ostream>
+	<iostream>
+
+1591121486 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 10\tp_10\test_stl_sort.h
+	<algorithm>
+	<iostream>
+	<vector>
+

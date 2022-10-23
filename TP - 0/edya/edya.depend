@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1646007498 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\edya\main.cpp
+	<iostream>
+	"EJ_1.h"
+	"EJ_2.h"
+	"EJ_4.h"
+	"EJ_5.h"
+
+1646006917 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\edya\ej_1.h
+	<iostream>
+	<stdlib.h>
+
+1646007598 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\edya\ej_2.h
+	<iostream>
+
+1645986611 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\edya\ej_4.h
+	<iostream>
+
+1645985249 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\edya\ej_5.h
+

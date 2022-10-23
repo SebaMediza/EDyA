@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1649422623 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 3\tp_3\main.cpp
+	<iostream>
+	"point.h"
+	"Date.h"
+	"DateTime.h"
+
+1649543515 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 3\tp_3\main.cpp
+	<iostream>
+	<ctime>
+	"point.h"
+	"Date.h"
+	"DateTime.h"
+
+1648649084 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 3\tp_3\point.h
+
+1649543606 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 3\tp_3\date.h
+	<string>
+	<time.h>
+	<iomanip>
+	<ctime>
+
+1648649084 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 3\tp_3\point.h
+
+1649425614 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 3\tp_3\date.h
+	<string>
+	<time.h>
+	<iomanip>
+	<ctime>
+
+1649543584 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 3\tp_3\datetime.h
+
+1649512975 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 3\tp_3\datetime.h
+

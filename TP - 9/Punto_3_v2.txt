@@ -1,0 +1,48 @@
+//FUNCION DE TESTEO DE ABB
+
+void test_abb(unsigned int cant, unsigned int N){
+    ArbolBin<int> tree;
+    Nodo<int>* *root=tree.raizArbol();
+    unsigned int contador=0, random_sign;
+    short min_val=(1),max_val=N;
+    do{
+    int elemento=0;
+    elemento=min_val+rand()%max_val;
+    random_sign = (rand() % 2);
+    if (random_sign==0){
+        elemento=-elemento;
+        }
+
+    tree.carga_ABB(elemento,*root);
+//    carga_ABB(tree,elemento,*root);
+    contador++;
+    }while(contador!=cant);
+    if(contador==cant){
+    Mostrar(tree);
+    }
+}
+
+//OPERACION BASICA ABB
+
+template <class T>
+void ArbolBin<T>::carga_ABB(T elemento,Nodo<T>* &r){
+        if(this->raiz==nullptr){
+            asignarNodo(elemento,r);
+        }else{
+        if(elemento>r->elemento){
+            if(r->HDer==nullptr){
+                asignarNodo(elemento,r->HDer);
+            }else{
+                carga_ABB(elemento,r->HDer);
+            }
+        }else{
+        if(elemento<r->elemento){
+            if(r->HIzq==nullptr){
+                asignarNodo(elemento,r->HIzq);
+            }else{
+                carga_ABB(elemento,r->HIzq);
+                }
+            }
+        }
+    }
+}

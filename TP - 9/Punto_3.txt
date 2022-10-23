@@ -1,0 +1,35 @@
+void test_abb(unsigned int cant, unsigned int N){
+    ArbolBin<int> tree;
+    Nodo<int>* *r=tree.raizArbol();
+    unsigned int contador=0;
+    do{
+    int elemento=0;
+    elemento=((-1)*N)+rand()%N;
+    tree.carga_ABB(tree,elemento,*r);
+    contador++;
+    }while(contador!=cant);
+    Mostrar(tree);
+}
+
+template <class T>
+void ArbolBin<T>::carga_ABB(ArbolBin<T> &tree, T elemento,Nodo<T>* r){
+        if(*tree.raizArbol()==nullptr){
+            tree.asignarNodo(elemento,r);
+            Mostrar(tree);
+        }
+        if(elemento>tree.recuperar(r)){
+            if(*tree.hijoDer(r)==nullptr){
+                tree.asignarNodo(elemento,*tree.hijoDer(r));
+            }else{
+                carga_ABB(tree,elemento,*tree.hijoDer(r));
+            }
+        }else{
+        if(elemento<tree.recuperar(r)){
+            if(*tree.hijoIzq(r)==nullptr){
+                tree.asignarNodo(elemento,*tree.hijoIzq(r));
+            }else{
+                carga_ABB(tree,elemento,*tree.hijoIzq(r));
+            }
+        }
+    }
+}

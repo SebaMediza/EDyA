@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1557758681 source:/media/daniel/Datos/Facultad/EDyA/EDyA_2019/workspace/binarytree/main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"include/arbolbin.h"
+	"include/arbolbinviewer.h"
+
+1557758681 rbolbinviewer.h"
+
+1557758246 /media/daniel/Datos/Facultad/EDyA/EDyA_2019/workspace/binarytree/include/arbolbin.h
+
+1557757751 /media/daniel/Datos/Facultad/EDyA/EDyA_2019/workspace/binarytree/include/arbolbinviewer.h
+	<iostream>
+	<map>
+	<list>
+	<sstream>
+	<string>
+	<fstream>
+	<windows.h>
+
+1558184331 >
+
+1558363407 source:/home/daniel/Escritorio/workspace/binarytree_a/main.cpp
+	<iostream>
+	<queue>
+	"include/arbol_test.h"
+
+1558363407 rbol_test.h"
+
+1558009729 /home/daniel/Escritorio/workspace/binarytree_a/include/arbol_test.h
+	<iostream>
+	<ctime>
+	<cassert>
+	"arbolbin.h"
+	"arbolbinviewer.h"
+
+1558009729 iewer.h"
+
+1558363458 /home/daniel/Escritorio/workspace/binarytree_a/include/arbolbin.h
+	<iostream>
+	<string>
+
+1558363458 
+
+1558184331 /home/daniel/Escritorio/workspace/binarytree_a/include/arbolbinviewer.h
+	<iostream>
+	<map>
+	<list>
+	<sstream>
+	<string>
+	<fstream>
+	<windows.h>
+
+1621000926 source:c:\users\sofia\onedrive\escritorio\binarytree_a\binarytree_a\main.cpp
+	<iostream>
+	<string>
+	<queue>
+	<stdint.h>
+	"include/arbolbin.h"
+
+1621000926 rbolbin.h"
+
+1558363458 c:\users\sofia\onedrive\escritorio\binarytree_a\binarytree_a\include\arbolbin.h
+	<iostream>
+	<string>
+
+1621001800 source:/home/daniel/Desktop/binarytree_a/main.cpp
+	<iostream>
+	<string>
+	<queue>
+	"include/arbol_test.h"
+
+1558009729 /home/daniel/Desktop/binarytree_a/include/arbol_test.h
+	<iostream>
+	<ctime>
+	<cassert>
+	"arbolbin.h"
+	"arbolbinviewer.h"
+
+1558363458 /home/daniel/Desktop/binarytree_a/include/arbolbin.h
+	<iostream>
+	<string>
+
+1621001804 /home/daniel/Desktop/binarytree_a/include/arbolbinviewer.h
+	<iostream>
+	<map>
+	<list>
+	<sstream>
+	<string>
+	<fstream>
+	<stdint.h>
+	<windows.h>
+
+1653845456 source:c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 9\tp_9\main.cpp
+	<iostream>
+	<string>
+	<queue>
+	<time.h>
+	"include/arbol_test.h"
+
+1558009728 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 9\tp_9\include\arbol_test.h
+	<iostream>
+	<ctime>
+	<cassert>
+	"arbolbin.h"
+	"arbolbinviewer.h"
+
+1654092269 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 9\tp_9\include\arbolbin.h
+	<iostream>
+	<string>
+
+1621001804 c:\users\usuario\desktop\facu!!!\ingenieria en sistemas\edya\tp - 9\tp_9\include\arbolbinviewer.h
+	<iostream>
+	<map>
+	<list>
+	<sstream>
+	<string>
+	<fstream>
+	<stdint.h>
+	<windows.h>
+
+1654607411 source:c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 9\tp_9\main.cpp
+	<iostream>
+	<string>
+	<queue>
+	<time.h>
+	"include/arbol_test.h"
+
+1558009728 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 9\tp_9\include\arbol_test.h
+	<iostream>
+	<ctime>
+	<cassert>
+	"arbolbin.h"
+	"arbolbinviewer.h"
+
+1654606845 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 9\tp_9\include\arbolbin.h
+	<iostream>
+	<string>
+
+1621001804 c:\users\arcen\desktop\facu\ingenieria en sistemas\edya\tp - 9\tp_9\include\arbolbinviewer.h
+	<iostream>
+	<map>
+	<list>
+	<sstream>
+	<string>
+	<fstream>
+	<stdint.h>
+	<windows.h>
+
